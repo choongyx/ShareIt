@@ -1,0 +1,9 @@
+diff a/App/views/profile.ejs b/App/views/profile.ejs	(rejected hunks)
+@@ -156,6 +156,7 @@
+             <th scope='row'> Address: </th>
+             <td><%= data.rows[0].address%></td>
+           </tr>
++
+         </table>
+       </div>
+ 
