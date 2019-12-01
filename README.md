@@ -21,10 +21,11 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-This app uses NodeJS. Download from:
+This app uses NodeJS and PostgresSQL. Download from:
 
 ```
 https://nodejs.org/en/download/
+https://www.postgresql.org/
 ```
 
 ### Initialise the database in PSQL
@@ -35,6 +36,9 @@ https://nodejs.org/en/download/
 
 ### Initial run
 
+```
+$ cd App
+```
 ```
 $ node bin\www
 ```
@@ -54,6 +58,6 @@ http://localhost:3000/
 * Build Tool: none
 * Unit Testing: none
 * Database: postgresql
-* Authentication:
+* Authentication: none
 * Deployment: none
 
